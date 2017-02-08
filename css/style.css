@@ -1,0 +1,228 @@
+/* Definition de la police personnalisée*/
+
+@font-face
+{
+    font-family: 'Comfortaa-Regular';
+    src: url('content/font/Comfortaa-Regular.ttf') format("truetype");
+    font-weight: normal;
+    font-style:normal;
+}
+
+
+/* Base css */
+
+html, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, b, i, hgroup, menu, nav, section, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+	color:white;
+    font-size: 100%;
+	vertical-align: top;
+	
+}
+
+body {
+	background: url('../content/images/FOND.png');
+	background-position: center center;
+    font-family: Comfortaa-Regular,sans-serif;  /* pas sur que ca marche */
+    font-weight: normal;
+    color: white;
+}
+
+#container{
+    width:900px;
+    margin:auto; /*to center*/
+   /* border: 1px solid red; */
+    
+}
+
+
+a { text-decoration: none; color:white}
+a:hover { text-decoration: none; }
+
+input:focus{
+outline:none;
+}
+
+*:focus {
+    outline: 0;
+}
+
+/* Navigation */
+
+header{
+    position: relative;
+    width: 900px;
+    margin: auto;
+    margin-top:10px;
+	height:50px;
+    font-size: 1em;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgba(0, 0, 0, 0.3); /*opacity for only this block*/
+    /*border: 1px solid black; */
+}
+
+header img{
+    display:  inline-block;
+    position: relative;
+    width: 50px;
+    height: auto;
+    vertical-align: bottom;
+    opacity: 1;
+
+}
+
+nav{
+    display: inline-block;
+    position: relative;
+    right: -150px;
+    top: 15px;
+    text-align: right;
+    text-transform: uppercase;
+    opacity: 1;
+    /*border: 1px solid white;*/
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a{
+    z-index: 1;
+}
+
+nav a:hover{
+   color:#93278F;
+   /*box-shadow: 0.5px 0.5px 0.5px black; effet possible*/ 
+}
+
+/* section */
+section{
+    margin-top: 50px;
+    /*border: 1px solid white;*/
+}
+
+
+
+/* pre_footer */
+
+#pre_footer{
+	width: 99%;
+	height:50px;
+    margin: auto; /*to center*/
+    margin-top: 75px;
+    margin-bottom: 25px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid black;
+    border-top-color: rgba(0,0,0, 0.4);
+    border-right-color: rgba(1,1,1, 0.4);
+    border-bottom-color: rgba(1,1,1, 0.4);
+    border-left-color: rgba(0,0,0, 0.4);
+
+}
+#pre_footer span{
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+
+#follow{
+    display: inline-block;
+    position: relative;
+    float:right;
+    margin-right:70px;
+    margin-top: 8px;
+    width:240px;
+}
+
+.f_logo{
+    width: 30px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 1px 1px 1px 1px;
+    padding: 2px;
+    
+}
+
+.f_logo:hover{
+    /*box-shadow: 1px 1px 1px black;*/
+	color:#93278F;
+}
+
+.slogan{
+    width: 900px;
+    height: auto;
+    padding: 5px;
+}
+
+/* footer */
+footer{
+    width:900px;
+    padding-top:10px;
+    font-size: 0.7em;
+    background-color: rgba(0, 0, 0, 0.3); /*opacity for only this block*/
+    height: 30px;
+}
+
+footer img{
+    width:20px;
+    height: auto;
+}
+
+footer span{
+    vertical-align: middle;
+    margin-left: 5px;
+    
+}
+
+footer div{
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+
+}
+
+#prod {
+	width: 35%;
+	text-align:center;
+}
+
+#prod img{
+	width: 25px;
+}
+
+#tel{
+    width:30%;
+    text-align:right;
+}
+
+#copyright{
+	text-align:center;
+	width:25%;
+}
+
+.accueil_skills{
+	margin-left:15px;
+}
+
+.accueil_us{
+	margin-left:15px;
+}
+
+.slider_top{
+	margin-top:10px;
+}
+
+.slider_bot{
+	margin-top:10px;
+}

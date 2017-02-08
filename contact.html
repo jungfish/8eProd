@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/style_gallery.css"/>
+        <link rel="stylesheet" href="css/slider.css" />
+        <link rel="stylesheet" href="css/form.css" />
+        
+  <title>Julien Marec Production</title>
+        
+    </head>
+
+    <body>
+    <div id="container">
+          <header>
+            <img src="content/images/8E_PROD.png" alt="logo 8E prod"/>
+            <nav>
+                <ul>
+                    <li><a href="#accueuil">Accueil</a></li>
+                    <li><a href="#">A propos</a></li>
+                    <li><a href="#">Réalisations</a></li>
+                    <li><a href="#">Compétences</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+          </header>
+
+              <div id="up">
+                <div id="mail">
+                  <img src="content/images/mail2.png">
+                </div>
+                <div id="para">
+                 <p>
+                 Vous souhaitez des renseignements, un devis, un conseil...<br>Vous souhaitez nous proposer un projet, n'hésitez pas à nous contacter.
+                 </p>
+                 <p>
+                  <br>Nous vous garantissons une réponse sous 48h.
+                 </p>
+                 </div>    
+              </div> <!--end of up -->
+               
+              <p>
+              <form method="post" action="html_form_send.php" enctype="multipart/form-data">
+                <label for="prenom">Prénom</label>
+                <input type="text" name="prenom" id="prenom" autofocus><br> 
+
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" id="nom"><br> 
+
+                <label for="societe">Société</label>
+                <input type="text" name="societe" id="societe"><br> 
+
+                <label for="email">Mail</label>
+                <input type="email" name="email" id="email"><br> 
+
+                <label for="telephone">Téléphone</label>
+                <input type="tel" name="telephone" id="telephone"><br> 
+
+                <label for="objet">Objet</label>
+                <input type="text" name="objet" id="objet"><br> 
+
+                <label for="piece">Pièce(s) Jointe(s)</label>
+                <input type="text" name="piece" id="piece"> 
+                <input type="file" name="selectedfile" value="Selectionner" /><br>
+
+                <textarea name="message" id="message"></textarea><br> 
+                <input type="submit" id="submit" style="text-align:center" value="Envoyer" /><br>
+              </form>
+            </p>
+
+              <div id="down">
+                <p>Vous pouvez également nous envoyer vos travaux par mail ou par courrier.<br></p> 
+
+                <p><br>
+                  <span id="ma">Mail :</span>
+                  contact@8e-prod.com</p> 
+                <p><br>
+                  <span id="ad">Adresse :</span>
+                  <span id="p2"> 
+                  8E Prod <br>
+                  37 rue des Mathurins <br>
+                  75008 Paris <br>
+                  </span>
+                </p> 
+              </div> <!--end of down --> 
+
+	        
+          <div id="pre_footer">
+              <span class="">SUIVEZ-NOUS!</span>
+              <div id="follow">
+                <img src="content/images/facebook.png" alt="facebook" class="f_logo"/>
+                <img src="content/images/twitter.png" alt="twitter" class="f_logo"/>
+                <img src="content/images/youtube.png" alt="youtube" class="f_logo"/>
+                <img src="content/images/link.png" alt="link" class="f_logo"/>
+                <img src="content/images/viadeo.png" alt="viadeo" class="f_logo"/>
+                <img src="content/images/google.png" alt="google" class="f_logo"/>
+              </div>  
+           </div> <!-- end of pre_footer -->
+
+          <footer>
+          <div id="copyright">
+            <span>Copyright 8E Prod - 2013</span>
+          </div>
+          <div id="prod">
+            <img src="content/images/8E_PROD.png" alt="logo 8E prod"/>
+          </div>
+          <div id="tel">
+            <img src="content/images/tel.png" alt="logo telephone"/>
+            <span>06.33.01.63.21</span>
+            <img src="content/images/mail.png" alt="logo mail"/>
+            <span>contact@8e-prod.com</span>
+          </div>    
+        </footer>
+        </div> <!-- end of container --> 
+   </body>
+</html>

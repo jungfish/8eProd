@@ -1,0 +1,75 @@
+.skills_logo{
+	display:inline-block;vertical-align:top;
+	width: 170px;
+	height: 148px;
+	position: relative;
+	/*background: rgba(0, 0, 0, 0.4);*/
+}
+
+.skills_logo img{
+	position:absolute;
+ 	left:0;
+    width: 140px;
+    height: 140px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 1px 1px 1px 1px;
+    padding-left:13px;
+    padding-right:13px;
+    
+    float: left;
+	cursor: pointer;
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+  
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.skills_logo img.top:hover{
+	opacity:0;
+}
+
+.us_logo{
+	display:inline-block;vertical-align:top;
+	width: 240px;
+	height: 240px;
+	position: relative;
+	margin-top:10px;
+	padding-right:45px;
+	/*background: rgba(0, 0, 0, 0.4);*/
+}
+
+.us_logo img{
+	position:absolute;
+ 	left:0;
+    width: 220px;
+    height: 220px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 1px 1px 1px 1px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:10px;
+    padding-top:10px;
+    
+    float: left;
+	cursor: pointer;
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+  
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.us_logo img.top:hover{
+	opacity:0;
+}
